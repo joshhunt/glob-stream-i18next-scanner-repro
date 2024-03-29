@@ -5,12 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "i18n": "i18next-scanner --config i18next-scanner.config.js"
+    "i18n-scanner": "i18next-scanner --config i18next-scanner.config.js",
+    "i18n-parser": "i18next --config i18next-parser.config.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "i18next-parser": "^8.13.0",
     "i18next-react": "^0.2.2",
-    "i18next-scanner": "^4.4.0"
+    "i18next-scanner": "^4.4.0",
+    "glob-stream": "8.0.0"
   }
 }
