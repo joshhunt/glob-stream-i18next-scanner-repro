@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -ex
+
 rm -rf node_modules; npm install
 npm run i18n-scanner
 npm run i18n-parser

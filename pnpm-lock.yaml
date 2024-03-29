@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   glob-stream:
-    specifier: 8.0.0
-    version: 8.0.0
+    specifier: 8.0.1
+    version: 8.0.1
   i18next-parser:
     specifier: ^8.13.0
     version: 8.13.0
@@ -17,6 +17,9 @@ dependencies:
   i18next-scanner:
     specifier: ^4.4.0
     version: 4.4.0
+  map-stream:
+    specifier: ^0.0.7
+    version: 0.0.7
 
 packages:
 
@@ -689,8 +692,8 @@ packages:
       is-glob: 4.0.3
     dev: false
 
-  /glob-stream@8.0.0:
-    resolution: {integrity: sha512-CdIUuwOkYNv9ZadR3jJvap8CMooKziQZ/QCSPhEb7zqfsEI5YnPmvca7IvbaVE3z58ZdUYD2JsU6AUWjL8WZJA==}
+  /glob-stream@8.0.1:
+    resolution: {integrity: sha512-gkw+JQajGXmzky/Lil3/tQ+p96YKkqJwxiakKgfDGpNBNFHxklnK2nPmYukEW6n8/HmcAfeSvT6xCdRafidwZQ==}
     engines: {node: '>=10.13.0'}
     dependencies:
       '@gulpjs/to-absolute-glob': 4.0.0
@@ -700,6 +703,7 @@ packages:
       is-glob: 4.0.3
       is-negated-glob: 1.0.0
       normalize-path: 3.0.0
+      now-and-later: 3.0.0
       streamx: 2.16.1
     dev: false
 
@@ -941,6 +945,10 @@ packages:
     hasBin: true
     dependencies:
       js-tokens: 4.0.0
+    dev: false
+
+  /map-stream@0.0.7:
+    resolution: {integrity: sha512-C0X0KQmGm3N2ftbTGBhSyuydQ+vV1LC3f3zPvT3RXHXNZrvfPZcoXp/N5DOa8vedX/rTMm2CjTtivFg2STJMRQ==}
     dev: false
 
   /matcher-collection@2.0.1:
@@ -1267,7 +1275,7 @@ packages:
     engines: {node: '>=10.13.0'}
     dependencies:
       fs-mkdirp-stream: 2.0.1
-      glob-stream: 8.0.0
+      glob-stream: 8.0.1
       graceful-fs: 4.2.11
       iconv-lite: 0.6.3
       is-valid-glob: 1.0.0

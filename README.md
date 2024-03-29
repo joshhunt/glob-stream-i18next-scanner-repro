@@ -15,3 +15,9 @@ or
 ```sh
 ./test.sh
 ```
+
+to test circular symlinks:
+
+```sh
+node test-circular.js
+```

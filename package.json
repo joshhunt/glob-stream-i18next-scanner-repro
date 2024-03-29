@@ -11,9 +11,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "glob-stream": "8.0.1",
     "i18next-parser": "^8.13.0",
     "i18next-react": "^0.2.2",
     "i18next-scanner": "^4.4.0",
-    "glob-stream": "8.0.0"
+    "map-stream": "^0.0.7"
   }
 }
