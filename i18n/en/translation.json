@@ -1,0 +1,12 @@
+{
+  "car": "",
+  "car_plural": "",
+  "car_blue": "",
+  "car_blue_plural": "",
+  "some": {
+    "key": "Default text"
+  },
+  "profile": {
+    "welcome": "Welcome back <1>{{username}}</1>"
+  }
+}
